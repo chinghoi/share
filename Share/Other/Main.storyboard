@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Share" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9gy-Rz-RWH"/>
+                        <viewControllerLayoutGuide type="bottom" id="5lj-04-FGY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VRk-6C-o0D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pTh-Uu-Msl">
+                                <rect key="frame" x="0.0" y="-10" width="320" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cja-cA-gjy">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="142"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text=" 这是一段测试用的文字,可以进行编辑,然后分享" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XlK-uE-wBX">
+                                                <rect key="frame" x="0.0" y="0.0" width="155" height="142"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cp2-nF-fKe">
+                                                <rect key="frame" x="165" y="0.0" width="155" height="142"/>
+                                                <state key="normal" title="分享"/>
+                                                <connections>
+                                                    <action selector="textShareMenuWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sHf-Rh-fFL"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sP1-eR-xQz">
+                                        <rect key="frame" x="0.0" y="142" width="320" height="142"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coast" translatesAutoresizingMaskIntoConstraints="NO" id="Cd3-70-6Iv">
+                                                <rect key="frame" x="0.0" y="0.0" width="155" height="142"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gj-Gd-eKZ">
+                                                <rect key="frame" x="165" y="0.0" width="155" height="142"/>
+                                                <state key="normal" title="分享"/>
+                                                <connections>
+                                                    <action selector="imageShareMenuWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sh2-Pj-8j0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j4t-3A-ib3">
+                                        <rect key="frame" x="0.0" y="284" width="320" height="142"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kC-wa-ffD">
+                                                <rect key="frame" x="0.0" y="0.0" width="155" height="142"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <state key="normal" title="点我播放要分享的视频"/>
+                                                <connections>
+                                                    <action selector="play:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MgS-8U-zy7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ntA-Xd-0Zk">
+                                                <rect key="frame" x="165" y="0.0" width="155" height="142"/>
+                                                <state key="normal" title="分享"/>
+                                                <connections>
+                                                    <action selector="videoShareMenuWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8sF-h8-fHU"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-zf-WEZ">
+                                        <rect key="frame" x="0.0" y="426" width="320" height="142"/>
+                                        <subviews>
+                                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clD-u7-l58">
+                                                <rect key="frame" x="0.0" y="0.0" width="155" height="142"/>
+                                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </webView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9d8-Wo-M0Z">
+                                                <rect key="frame" x="165" y="0.0" width="155" height="142"/>
+                                                <state key="normal" title="分享"/>
+                                                <connections>
+                                                    <action selector="urlShareMenuWithSender:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="czP-zw-JPf"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pTh-Uu-Msl" firstAttribute="leading" secondItem="VRk-6C-o0D" secondAttribute="leading" id="7zv-fd-fFp"/>
+                            <constraint firstItem="pTh-Uu-Msl" firstAttribute="top" secondItem="VRk-6C-o0D" secondAttribute="top" constant="10" id="A4C-Vq-2ul"/>
+                            <constraint firstItem="pTh-Uu-Msl" firstAttribute="top" secondItem="VRk-6C-o0D" secondAttribute="top" multiplier="0.7" constant="10" id="AB3-YY-B2S"/>
+                            <constraint firstItem="5lj-04-FGY" firstAttribute="top" secondItem="pTh-Uu-Msl" secondAttribute="bottom" constant="10" id="L3U-9S-1sM"/>
+                            <constraint firstAttribute="trailing" secondItem="pTh-Uu-Msl" secondAttribute="trailing" id="NGO-8Y-yLh"/>
+                            <constraint firstAttribute="trailing" secondItem="pTh-Uu-Msl" secondAttribute="trailing" id="aNX-DR-ih9"/>
+                            <constraint firstItem="5lj-04-FGY" firstAttribute="top" secondItem="pTh-Uu-Msl" secondAttribute="bottom" constant="10" id="bXZ-Hu-VV5"/>
+                            <constraint firstItem="pTh-Uu-Msl" firstAttribute="leading" secondItem="VRk-6C-o0D" secondAttribute="leading" id="wFI-On-ofd"/>
+                            <constraint firstItem="pTh-Uu-Msl" firstAttribute="height" secondItem="VRk-6C-o0D" secondAttribute="height" id="zde-YW-3wv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="XlK-uE-wBX" id="fHb-IX-boi"/>
+                        <outlet property="webView" destination="clD-u7-l58" id="Efx-Bv-RSr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="72.5" y="281.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coast" width="640" height="426"/>
+    </resources>
+</document>
