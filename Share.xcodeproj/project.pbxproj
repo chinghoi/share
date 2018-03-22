@@ -97,7 +97,7 @@
 		C846E7AD1B6B91B900522792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C846E7B21B6B91B900522792 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		C846E7B51B6B91B900522792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C846E7CC1B6B92AB00522792 /* ShareSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ShareSDK-Bridging-Header.h"; path = "../ShareSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		C846E7CC1B6B92AB00522792 /* ShareSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareSDK-Bridging-Header.h"; sourceTree = "<group>"; };
 		C846E7FF1B6B93C800522792 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		C8FE00D81B6DF92500D7234C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DE247F1B1BB24C5F00225F1B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -283,12 +283,14 @@
 		C846E7A81B6B91B900522792 /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				E9162E0720553A4C00025335 /* Res */,
 				E91AEAC42055228B00FEE04C /* SDK */,
+				E9162E0720553A4C00025335 /* Res */,
 				C846E7CC1B6B92AB00522792 /* ShareSDK-Bridging-Header.h */,
 				C846E7AB1B6B91B900522792 /* AppDelegate.swift */,
 				C846E7AD1B6B91B900522792 /* ViewController.swift */,
 				E9162E0A205585C000025335 /* UIAlertExtension.swift */,
+				C8FE00D81B6DF92500D7234C /* Main.storyboard */,
+				C846E7B41B6B91B900522792 /* LaunchScreen.xib */,
 				C846E7CB1B6B928600522792 /* Other */,
 				C846E7A91B6B91B900522792 /* Supporting Files */,
 			);
@@ -307,8 +309,6 @@
 			isa = PBXGroup;
 			children = (
 				C846E8091B6C702000522792 /* 导入的依赖库 */,
-				C8FE00D81B6DF92500D7234C /* Main.storyboard */,
-				C846E7B41B6B91B900522792 /* LaunchScreen.xib */,
 				C846E7B21B6B91B900522792 /* Images.xcassets */,
 			);
 			path = Other;

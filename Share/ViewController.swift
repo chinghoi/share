@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIImagePickerControl
         
         //定义一个视频播放器，通过本地文件路径初始化
         let player = AVPlayer(url: NSURL(string:"http://images.all-free-download.com/footage_preview/mp4/tibet_lake_nepal_ladakh_himalaya_366.mp4") as URL!)
-//        //此注释表示在原来按钮上播放视频,以备后用(勿删)
+//        //此注释表示在原来按钮上播放视频,以备后用(可删)
 //        //设置大小和位置（全屏）
 //        let playerLayer = AVPlayerLayer(player: player)
 //        //将按钮大小属性传给播放器
