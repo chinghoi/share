@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIImagePickerControl
     @IBAction func play(_ sender: UIButton) {
         
         //定义一个视频播放器，通过本地文件路径初始化
-        let player = AVPlayer(url: NSURL(string:"http://images.all-free-download.com/footage_preview/mp4/tibet_lake_nepal_ladakh_himalaya_366.mp4") as URL!)
+        let player = AVPlayer(url: URL(string:"http://images.all-free-download.com/footage_preview/mp4/tibet_lake_nepal_ladakh_himalaya_366.mp4")!)
 //        //此注释表示在原来按钮上播放视频,以备后用(可删)
 //        //设置大小和位置（全屏）
 //        let playerLayer = AVPlayerLayer(player: player)
@@ -122,7 +122,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIImagePickerControl
         let shareParames = NSMutableDictionary()
         shareParames.ssdkSetupShareParams(byText: "分享内容 Big Buck Bunny",
                                           images : UIImage(named: "bird.jpg"),
-                                          url : NSURL(string:"http://images.all-free-download.com/footage_preview/mp4/tibet_lake_nepal_ladakh_himalaya_366.mp4") as URL!,
+                                          url : URL(string:"http://images.all-free-download.com/footage_preview/mp4/tibet_lake_nepal_ladakh_himalaya_366.mp4"),
                                           title : "Big Buck Bunny",
                                           type : SSDKContentType.video)
 
@@ -148,7 +148,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIImagePickerControl
         let shareParames = NSMutableDictionary()
         shareParames.ssdkSetupShareParams(byText: "分享内容 http://www.qdaily.com/",
                                           images : UIImage(named: "shareImg.png"),
-                                          url : NSURL(string:"http://www.qdaily.com/") as URL!,
+                                          url : URL(string:"http://www.qdaily.com/"),
                                           title : "好奇心日报",
                                           type : SSDKContentType.webPage)
         

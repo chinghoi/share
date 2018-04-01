@@ -20,7 +20,6 @@
 		C846E7AC1B6B91B900522792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C846E7AB1B6B91B900522792 /* AppDelegate.swift */; };
 		C846E7AE1B6B91B900522792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C846E7AD1B6B91B900522792 /* ViewController.swift */; };
 		C846E7B31B6B91B900522792 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C846E7B21B6B91B900522792 /* Images.xcassets */; };
-		C846E7B61B6B91B900522792 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C846E7B41B6B91B900522792 /* LaunchScreen.xib */; };
 		C846E8001B6B93C800522792 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C846E7FF1B6B93C800522792 /* ImageIO.framework */; };
 		C8FE00D91B6DF92500D7234C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FE00D81B6DF92500D7234C /* Main.storyboard */; };
 		DE247F1C1BB24C5F00225F1B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE247F1B1BB24C5F00225F1B /* AdSupport.framework */; };
@@ -78,6 +77,7 @@
 		E91AEB412055228C00FEE04C /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91AEB102055228B00FEE04C /* MOBFoundation.framework */; };
 		E91FFDBA2057C7BB0047EC0A /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E91FFDB92057C7BB0047EC0A /* bird.jpg */; };
 		E965A63E2056CEBE00FCCFF2 /* owl.png in Resources */ = {isa = PBXBuildFile; fileRef = E965A63D2056CEBE00FCCFF2 /* owl.png */; };
+		E9A6F9412070D1C90000C2FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9A6F9402070D1C90000C2FE /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,7 +96,6 @@
 		C846E7AB1B6B91B900522792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C846E7AD1B6B91B900522792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C846E7B21B6B91B900522792 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
-		C846E7B51B6B91B900522792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C846E7CC1B6B92AB00522792 /* ShareSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareSDK-Bridging-Header.h"; sourceTree = "<group>"; };
 		C846E7FF1B6B93C800522792 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		C8FE00D81B6DF92500D7234C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -164,6 +163,7 @@
 		E91AEB102055228B00FEE04C /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
 		E91FFDB92057C7BB0047EC0A /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
 		E965A63D2056CEBE00FCCFF2 /* owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = owl.png; sourceTree = "<group>"; };
+		E9A6F9402070D1C90000C2FE /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,7 +290,7 @@
 				C846E7AD1B6B91B900522792 /* ViewController.swift */,
 				E9162E0A205585C000025335 /* UIAlertExtension.swift */,
 				C8FE00D81B6DF92500D7234C /* Main.storyboard */,
-				C846E7B41B6B91B900522792 /* LaunchScreen.xib */,
+				E9A6F9402070D1C90000C2FE /* LaunchScreen.xib */,
 				C846E7CB1B6B928600522792 /* Other */,
 				C846E7A91B6B91B900522792 /* Supporting Files */,
 			);
@@ -577,7 +577,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = MOB;
 				TargetAttributes = {
 					C846E7A51B6B91B900522792 = {
@@ -616,8 +616,8 @@
 				E91AEB282055228C00FEE04C /* ShareSDKConfigFile.bundle in Resources */,
 				E91FFDBA2057C7BB0047EC0A /* bird.jpg in Resources */,
 				C8FE00D91B6DF92500D7234C /* Main.storyboard in Resources */,
+				E9A6F9412070D1C90000C2FE /* LaunchScreen.xib in Resources */,
 				E91AEB232055228C00FEE04C /* ShareSDK.bundle in Resources */,
-				C846E7B61B6B91B900522792 /* LaunchScreen.xib in Resources */,
 				E91AEB152055228C00FEE04C /* README.txt in Resources */,
 				C846E7B31B6B91B900522792 /* Images.xcassets in Resources */,
 				E91AEB112055228C00FEE04C /* RennSDK.bundle in Resources */,
@@ -642,18 +642,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C846E7B41B6B91B900522792 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C846E7B51B6B91B900522792 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = ..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		C846E7C31B6B91B900522792 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -668,12 +656,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -723,12 +713,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -761,7 +753,6 @@
 		C846E7C61B6B91B900522792 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BX3Y9SNP5;
@@ -794,7 +785,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ShareSDK-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Share/ShareSDK-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = "arm64 armv7 armv7s";
@@ -804,7 +795,6 @@
 		C846E7C71B6B91B900522792 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9BX3Y9SNP5;
@@ -837,7 +827,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ShareSDK-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Share/ShareSDK-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				VALID_ARCHS = "arm64 armv7 armv7s";
