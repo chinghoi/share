@@ -88,10 +88,9 @@ class ViewController: UIViewController, UITextViewDelegate, UIImagePickerControl
         sheet?.directSharePlatforms.add(SSDKPlatformType.typeSinaWeibo.rawValue)
     }
     @IBAction func imageShareMenu(sender: UIButton) {
-        
         //1.创建分享参数
         let shareParames = NSMutableDictionary()
-        shareParames.ssdkSetupShareParams(byText: nil,
+        shareParames.ssdkSetupShareParams(byText: "image",
                                           images : UIImage(named: "coast.png"),
                                           url : nil,
                                           title : nil,
